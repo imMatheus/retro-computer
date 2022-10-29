@@ -1,4 +1,5 @@
 import React from 'react'
+import Dock from 'components/dock'
 
 interface MainProps {
     children: React.ReactNode
@@ -6,9 +7,9 @@ interface MainProps {
 
 const Main: React.FC<MainProps> = ({ children }) => {
     return (
-        <div className='bg-red-500 p-2 h-screen flex flex-col'>
-            <div className='flex-1 bg-orange-400'>{children}</div>
-            <nav className='bg-pink-600 p-5'>im the nav</nav>
+        <div className='h-screen flex flex-col'>
+            <div className='flex-1 bg-teal-400'>{children}</div>
+            <Dock />
         </div>
     )
 }
