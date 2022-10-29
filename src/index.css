@@ -11,3 +11,10 @@ html {
 body {
   font-family: "Press Start 2P", cursive;
 }
+
+@layer components {
+  .border-outset {
+    border-width: 1px;
+    border-style: outset;
+  }
+}
