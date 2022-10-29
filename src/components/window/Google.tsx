@@ -6,7 +6,7 @@ const Google: React.FC = ({}) => {
     <Window>
       <iframe
         // src="https://rubiks-cube-eight.vercel.app/"
-        src="https://twitter-clone-immatheus.vercel.app/"
+        src="https://ping.gg/"
         title="description"
         style={{ width: "100%", height: "100%", transform: "scale(1)" }}
       ></iframe>

@@ -1,9 +1,14 @@
-import { useState } from "react";
+import Layout from "./layout";
+import Google from "./components/window/Google";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Layout>
+        <Google />
+      </Layout>
+    </div>
+  );
 }
 
 export default App;
